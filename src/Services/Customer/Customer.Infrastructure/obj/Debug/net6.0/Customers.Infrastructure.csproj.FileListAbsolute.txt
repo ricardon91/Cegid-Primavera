@@ -15,3 +15,5 @@ C:\Users\ricar\OneDrive\Documentos\Projetos\Cegid-Primavera\src\Services\Custome
 C:\Users\ricar\OneDrive\Documentos\Projetos\Cegid-Primavera\src\Services\Customer\Customer.Infrastructure\obj\Debug\net6.0\refint\Customers.Infrastructure.dll
 C:\Users\ricar\OneDrive\Documentos\Projetos\Cegid-Primavera\src\Services\Customer\Customer.Infrastructure\obj\Debug\net6.0\Customers.Infrastructure.pdb
 C:\Users\ricar\OneDrive\Documentos\Projetos\Cegid-Primavera\src\Services\Customer\Customer.Infrastructure\obj\Debug\net6.0\ref\Customers.Infrastructure.dll
+C:\Users\ricar\OneDrive\Documentos\Projetos\Cegid-Primavera\src\Services\Customer\Customer.Infrastructure\bin\Debug\net6.0\Customers.Infrastructure.runtimeconfig.json
+C:\Users\ricar\OneDrive\Documentos\Projetos\Cegid-Primavera\src\Services\Customer\Customer.Infrastructure\obj\Debug\net6.0\Customers.Infrastructure.genruntimeconfig.cache

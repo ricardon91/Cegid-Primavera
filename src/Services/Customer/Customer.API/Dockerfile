@@ -6,13 +6,13 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["src/Services/Customer/Customer.API/Customers.API.csproj", "src/Services/Customer/Customer.API/"]
-COPY ["src/Services/Customer/Customer.Application/Customers.Application.csproj", "src/Services/Customer/Customer.Application/"]
-COPY ["src/Services/Customer/Customer.Domain/Customers.Domain.csproj", "src/Services/Customer/Customer.Domain/"]
-COPY ["src/Services/Customer/Customer.Infrastructure/Customers.Infrastructure.csproj", "src/Services/Customer/Customer.Infrastructure/"]
-RUN dotnet restore "src/Services/Customer/Customer.API/Customers.API.csproj"
+COPY ["Services/Customer/Customer.API/Customers.API.csproj", "Services/Customer/Customer.API/"]
+COPY ["Services/Customer/Customer.Application/Customers.Application.csproj", "Services/Customer/Customer.Application/"]
+COPY ["Services/Customer/Customer.Domain/Customers.Domain.csproj", "Services/Customer/Customer.Domain/"]
+COPY ["Services/Customer/Customer.Infrastructure/Customers.Infrastructure.csproj", "Services/Customer/Customer.Infrastructure/"]
+RUN dotnet restore "Services/Customer/Customer.API/Customers.API.csproj"
 COPY . .
-WORKDIR "/src/src/Services/Customer/Customer.API"
+WORKDIR "/src/Services/Customer/Customer.API"
 RUN dotnet build "Customers.API.csproj" -c Release -o /app/build
 
 FROM build AS publish

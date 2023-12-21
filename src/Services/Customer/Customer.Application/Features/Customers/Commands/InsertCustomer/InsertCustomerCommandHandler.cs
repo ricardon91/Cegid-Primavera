@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Customers.Application.Features.Customers.Commands.InsertCustomer
 {
-    public class InsertCustomerCommandHandler : IRequest<InsertCustomerCommand>
+    public class InsertCustomerCommandHandler : IRequestHandler<InsertCustomerCommand, int>
     {
         private readonly ICustomerRepository _customerRepository;
         private readonly IMapper _mapper;

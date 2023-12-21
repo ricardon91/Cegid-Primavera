@@ -89,3 +89,11 @@ C:\Users\ricar\OneDrive\Documentos\Projetos\Cegid-Primavera\src\Services\Custome
 C:\Users\ricar\OneDrive\Documentos\Projetos\Cegid-Primavera\src\Services\Customer\Customer.API\obj\Debug\net6.0\Customers.API.pdb
 C:\Users\ricar\OneDrive\Documentos\Projetos\Cegid-Primavera\src\Services\Customer\Customer.API\obj\Debug\net6.0\Customers.API.genruntimeconfig.cache
 C:\Users\ricar\OneDrive\Documentos\Projetos\Cegid-Primavera\src\Services\Customer\Customer.API\obj\Debug\net6.0\ref\Customers.API.dll
+C:\Users\ricar\OneDrive\Documentos\Projetos\Cegid-Primavera\src\Services\Customer\Customer.API\bin\Debug\net6.0\Humanizer.dll
+C:\Users\ricar\OneDrive\Documentos\Projetos\Cegid-Primavera\src\Services\Customer\Customer.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ricar\OneDrive\Documentos\Projetos\Cegid-Primavera\src\Services\Customer\Customer.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\ricar\OneDrive\Documentos\Projetos\Cegid-Primavera\src\Services\Customer\Customer.API\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\ricar\OneDrive\Documentos\Projetos\Cegid-Primavera\src\Services\Customer\Customer.API\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\ricar\OneDrive\Documentos\Projetos\Cegid-Primavera\src\Services\Customer\Customer.API\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\ricar\OneDrive\Documentos\Projetos\Cegid-Primavera\src\Services\Customer\Customer.API\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\ricar\OneDrive\Documentos\Projetos\Cegid-Primavera\src\Services\Customer\Customer.API\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
