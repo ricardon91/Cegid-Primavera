@@ -1,0 +1,11 @@
+C:\Users\ricar\OneDrive\Documentos\Projetos\Cegid-Primavera\src\Services\Customer\Customer.Domain\bin\Debug\net6.0\Customers.Domain.deps.json
+C:\Users\ricar\OneDrive\Documentos\Projetos\Cegid-Primavera\src\Services\Customer\Customer.Domain\bin\Debug\net6.0\Customers.Domain.dll
+C:\Users\ricar\OneDrive\Documentos\Projetos\Cegid-Primavera\src\Services\Customer\Customer.Domain\bin\Debug\net6.0\Customers.Domain.pdb
+C:\Users\ricar\OneDrive\Documentos\Projetos\Cegid-Primavera\src\Services\Customer\Customer.Domain\obj\Debug\net6.0\Customers.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ricar\OneDrive\Documentos\Projetos\Cegid-Primavera\src\Services\Customer\Customer.Domain\obj\Debug\net6.0\Customers.Domain.AssemblyInfoInputs.cache
+C:\Users\ricar\OneDrive\Documentos\Projetos\Cegid-Primavera\src\Services\Customer\Customer.Domain\obj\Debug\net6.0\Customers.Domain.AssemblyInfo.cs
+C:\Users\ricar\OneDrive\Documentos\Projetos\Cegid-Primavera\src\Services\Customer\Customer.Domain\obj\Debug\net6.0\Customers.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ricar\OneDrive\Documentos\Projetos\Cegid-Primavera\src\Services\Customer\Customer.Domain\obj\Debug\net6.0\Customers.Domain.dll
+C:\Users\ricar\OneDrive\Documentos\Projetos\Cegid-Primavera\src\Services\Customer\Customer.Domain\obj\Debug\net6.0\refint\Customers.Domain.dll
+C:\Users\ricar\OneDrive\Documentos\Projetos\Cegid-Primavera\src\Services\Customer\Customer.Domain\obj\Debug\net6.0\Customers.Domain.pdb
+C:\Users\ricar\OneDrive\Documentos\Projetos\Cegid-Primavera\src\Services\Customer\Customer.Domain\obj\Debug\net6.0\ref\Customers.Domain.dll
