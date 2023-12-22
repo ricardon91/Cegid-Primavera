@@ -1,4 +1,5 @@
-﻿using FluentValidation;
+﻿using Customers.Application.Behaviors;
+using FluentValidation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,17 +14,18 @@ namespace Customers.Application.Features.Customers.Commands.UpdateCustomer
         {
             RuleFor(p => p.Name)
                 .NotEmpty()
-                .WithMessage("{Name} is required.")
+                .WithMessage("Name is required.")
                 .MaximumLength(50).WithMessage("{Name} must not exceed 50 characters.");
 
             RuleFor(p => p.Country)
                 .NotEmpty()
-                .WithMessage("{Country} is required.")
-                .MaximumLength(50).WithMessage("{Name} must not exceed 50 characters.");
+                .WithMessage("Country is required.")
+                .MaximumLength(50).WithMessage("Country must not exceed 50 characters.");
 
-            RuleFor(p => p.TaxId)                
-                .NotEmpty()
-                .WithMessage("{TaxId} is required.");
+            RuleFor(p => p.TaxId)
+                .NotEmpty().WithMessage("Tax Id is required.")
+                .NotNull()
+                .IsNifValid().When(p => p.Country == "Portugal");
         }
     }
 }
