@@ -3,7 +3,6 @@ version: '3.4'
 services:
   customers.api:
     image: customersapi:dev
-    container_name: "Customers.API_1"
     build:
       target: base
       labels:

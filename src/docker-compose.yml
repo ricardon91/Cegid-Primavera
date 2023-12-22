@@ -4,8 +4,18 @@ services:
   customerdb:
     image: mcr.microsoft.com/mssql/server:2019-latest
 
+  salesdb:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+
   customers.api:
     image: ${DOCKER_REGISTRY-}customersapi
     build:
       context: .
       dockerfile: Services/Customer/Customer.API/Dockerfile
+
+  sales.api:
+    image: ${DOCKER_REGISTRY-}salesapi
+    build:
+      context: .
+      dockerfile: Services/Sale/Sales.API/Dockerfile
+

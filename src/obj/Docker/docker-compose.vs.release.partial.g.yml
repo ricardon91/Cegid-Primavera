@@ -2,7 +2,6 @@ version: '3.4'
 
 services:
   customers.api:
-    container_name: "Customers.API_1"
     build:
       labels:
         com.microsoft.created-by: "visual-studio"

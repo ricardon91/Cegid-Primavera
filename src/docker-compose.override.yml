@@ -10,6 +10,15 @@ services:
     ports:
         - "1433:1433"
 
+  salesdb:
+    container_name: salesdb
+    environment:
+        SA_PASSWORD: "RnS12345678"
+        ACCEPT_EULA: "Y"
+    restart: always
+    ports:
+        - "1434:1434"
+
   customers.api:
     container_name: customers.api
     environment:
@@ -19,3 +28,14 @@ services:
       - customerdb
     ports:
       - "8000:80"
+
+  sales.api:
+    container_name: sales.api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "ConnectionStrings:CustomerConnectionString=Server=customerdb;Database=CustomerDb;User Id=sa;Password=RnS12345678;TrustServerCertificate=True"
+    depends_on:
+      - salesdb
+    ports:
+      - "8001:80"
+
