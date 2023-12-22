@@ -1,11 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Sales.Domain.Common;
+﻿using Microsoft.EntityFrameworkCore.ChangeTracking;
+using Microsoft.EntityFrameworkCore;
 using Sales.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Sales.Domain.Common;
 
 namespace Sales.Infrastructure.Persistance
 {

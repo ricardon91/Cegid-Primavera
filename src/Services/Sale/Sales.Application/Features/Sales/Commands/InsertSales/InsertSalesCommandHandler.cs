@@ -2,7 +2,6 @@
 using MediatR;
 using Microsoft.Extensions.Logging;
 using Sales.Application.Contracts.Persistence;
-using Sales.Application.Features.Sales.Commands.DeleteSales;
 using Sales.Domain.Entities;
 using System;
 using System.Collections.Generic;

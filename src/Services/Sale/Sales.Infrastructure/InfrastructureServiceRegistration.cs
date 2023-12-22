@@ -20,7 +20,7 @@ namespace Sales.Infrastructure
                 options.UseSqlServer(configuration.GetConnectionString("SalesConnectionString")));
 
             services.AddScoped(typeof(IAsyncRepository<>), typeof(RepositoryBase<>));
-            services.AddScoped<ISalesRepository, SalesRepository>();            
+            services.AddScoped<ISalesRepository, SalesRepository>();
 
             return services;
         }

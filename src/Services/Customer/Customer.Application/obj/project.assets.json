@@ -569,11 +569,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ricar\\OneDrive\\Documentos\\Projetos\\Cegid-Primavera\\src\\Services\\Customer\\Customer.Application\\Customers.Application.csproj",
+      "projectUniqueName": "C:\\Users\\ricar\\Documents\\Projects\\Cegid-Primavera\\src\\Services\\Customer\\Customer.Application\\Customers.Application.csproj",
       "projectName": "Customers.Application",
-      "projectPath": "C:\\Users\\ricar\\OneDrive\\Documentos\\Projetos\\Cegid-Primavera\\src\\Services\\Customer\\Customer.Application\\Customers.Application.csproj",
+      "projectPath": "C:\\Users\\ricar\\Documents\\Projects\\Cegid-Primavera\\src\\Services\\Customer\\Customer.Application\\Customers.Application.csproj",
       "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ricar\\OneDrive\\Documentos\\Projetos\\Cegid-Primavera\\src\\Services\\Customer\\Customer.Application\\obj\\",
+      "outputPath": "C:\\Users\\ricar\\Documents\\Projects\\Cegid-Primavera\\src\\Services\\Customer\\Customer.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -590,8 +590,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\ricar\\OneDrive\\Documentos\\Projetos\\Cegid-Primavera\\src\\Services\\Customer\\Customer.Domain\\Customers.Domain.csproj": {
-              "projectPath": "C:\\Users\\ricar\\OneDrive\\Documentos\\Projetos\\Cegid-Primavera\\src\\Services\\Customer\\Customer.Domain\\Customers.Domain.csproj"
+            "C:\\Users\\ricar\\Documents\\Projects\\Cegid-Primavera\\src\\Services\\Customer\\Customer.Domain\\Customers.Domain.csproj": {
+              "projectPath": "C:\\Users\\ricar\\Documents\\Projects\\Cegid-Primavera\\src\\Services\\Customer\\Customer.Domain\\Customers.Domain.csproj"
             }
           }
         }

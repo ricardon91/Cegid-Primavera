@@ -9,6 +9,6 @@ namespace Sales.Application.Contracts.Persistence
 {
     public interface ISalesRepository : IAsyncRepository<SalesItems>
     {
-        
+
     }
 }

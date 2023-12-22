@@ -1,5 +1,4 @@
 ﻿using FluentValidation;
-using Sales.Application.Features.Sales.Commands.InsertSales;
 using System;
 using System.Collections.Generic;
 using System.Linq;

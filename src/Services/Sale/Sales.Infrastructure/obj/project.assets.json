@@ -3136,11 +3136,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ricar\\OneDrive\\Documentos\\Projetos\\Cegid-Primavera\\src\\Services\\Sale\\Sales.Infrastructure\\Sales.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\ricar\\Documents\\Projects\\Cegid-Primavera\\src\\Services\\Sale\\Sales.Infrastructure\\Sales.Infrastructure.csproj",
       "projectName": "Sales.Infrastructure",
-      "projectPath": "C:\\Users\\ricar\\OneDrive\\Documentos\\Projetos\\Cegid-Primavera\\src\\Services\\Sale\\Sales.Infrastructure\\Sales.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\ricar\\Documents\\Projects\\Cegid-Primavera\\src\\Services\\Sale\\Sales.Infrastructure\\Sales.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ricar\\OneDrive\\Documentos\\Projetos\\Cegid-Primavera\\src\\Services\\Sale\\Sales.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\ricar\\Documents\\Projects\\Cegid-Primavera\\src\\Services\\Sale\\Sales.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3157,8 +3157,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\ricar\\OneDrive\\Documentos\\Projetos\\Cegid-Primavera\\src\\Services\\Sale\\Sales.Application\\Sales.Application.csproj": {
-              "projectPath": "C:\\Users\\ricar\\OneDrive\\Documentos\\Projetos\\Cegid-Primavera\\src\\Services\\Sale\\Sales.Application\\Sales.Application.csproj"
+            "C:\\Users\\ricar\\Documents\\Projects\\Cegid-Primavera\\src\\Services\\Sale\\Sales.Application\\Sales.Application.csproj": {
+              "projectPath": "C:\\Users\\ricar\\Documents\\Projects\\Cegid-Primavera\\src\\Services\\Sale\\Sales.Application\\Sales.Application.csproj"
             }
           }
         }

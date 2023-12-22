@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ricar\\OneDrive\\Documentos\\Projetos\\Cegid-Primavera\\src\\Services\\Customer\\Customer.Domain\\Customers.Domain.csproj": {}
+    "C:\\Users\\ricar\\Documents\\Projects\\Cegid-Primavera\\src\\Services\\Customer\\Customer.Domain\\Customers.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ricar\\OneDrive\\Documentos\\Projetos\\Cegid-Primavera\\src\\Services\\Customer\\Customer.Domain\\Customers.Domain.csproj": {
+    "C:\\Users\\ricar\\Documents\\Projects\\Cegid-Primavera\\src\\Services\\Customer\\Customer.Domain\\Customers.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricar\\OneDrive\\Documentos\\Projetos\\Cegid-Primavera\\src\\Services\\Customer\\Customer.Domain\\Customers.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\ricar\\Documents\\Projects\\Cegid-Primavera\\src\\Services\\Customer\\Customer.Domain\\Customers.Domain.csproj",
         "projectName": "Customers.Domain",
-        "projectPath": "C:\\Users\\ricar\\OneDrive\\Documentos\\Projetos\\Cegid-Primavera\\src\\Services\\Customer\\Customer.Domain\\Customers.Domain.csproj",
+        "projectPath": "C:\\Users\\ricar\\Documents\\Projects\\Cegid-Primavera\\src\\Services\\Customer\\Customer.Domain\\Customers.Domain.csproj",
         "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricar\\OneDrive\\Documentos\\Projetos\\Cegid-Primavera\\src\\Services\\Customer\\Customer.Domain\\obj\\",
+        "outputPath": "C:\\Users\\ricar\\Documents\\Projects\\Cegid-Primavera\\src\\Services\\Customer\\Customer.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",

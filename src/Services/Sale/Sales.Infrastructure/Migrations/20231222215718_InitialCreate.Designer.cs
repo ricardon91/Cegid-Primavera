@@ -12,7 +12,7 @@ using Sales.Infrastructure.Persistance;
 namespace Sales.Infrastructure.Migrations
 {
     [DbContext(typeof(SalesContext))]
-    [Migration("20231222170614_InitialCreate")]
+    [Migration("20231222215718_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />

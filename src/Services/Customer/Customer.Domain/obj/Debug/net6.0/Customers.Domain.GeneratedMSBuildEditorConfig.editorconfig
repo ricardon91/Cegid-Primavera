@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Customers.Domain
-build_property.ProjectDir = C:\Users\ricar\OneDrive\Documentos\Projetos\Cegid-Primavera\src\Services\Customer\Customer.Domain\
+build_property.ProjectDir = C:\Users\ricar\Documents\Projects\Cegid-Primavera\src\Services\Customer\Customer.Domain\

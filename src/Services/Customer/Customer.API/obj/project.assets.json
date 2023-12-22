@@ -3371,11 +3371,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ricar\\OneDrive\\Documentos\\Projetos\\Cegid-Primavera\\src\\Services\\Customer\\Customer.API\\Customers.API.csproj",
+      "projectUniqueName": "C:\\Users\\ricar\\Documents\\Projects\\Cegid-Primavera\\src\\Services\\Customer\\Customer.API\\Customers.API.csproj",
       "projectName": "Customers.API",
-      "projectPath": "C:\\Users\\ricar\\OneDrive\\Documentos\\Projetos\\Cegid-Primavera\\src\\Services\\Customer\\Customer.API\\Customers.API.csproj",
+      "projectPath": "C:\\Users\\ricar\\Documents\\Projects\\Cegid-Primavera\\src\\Services\\Customer\\Customer.API\\Customers.API.csproj",
       "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ricar\\OneDrive\\Documentos\\Projetos\\Cegid-Primavera\\src\\Services\\Customer\\Customer.API\\obj\\",
+      "outputPath": "C:\\Users\\ricar\\Documents\\Projects\\Cegid-Primavera\\src\\Services\\Customer\\Customer.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3392,11 +3392,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\ricar\\OneDrive\\Documentos\\Projetos\\Cegid-Primavera\\src\\Services\\Customer\\Customer.Application\\Customers.Application.csproj": {
-              "projectPath": "C:\\Users\\ricar\\OneDrive\\Documentos\\Projetos\\Cegid-Primavera\\src\\Services\\Customer\\Customer.Application\\Customers.Application.csproj"
+            "C:\\Users\\ricar\\Documents\\Projects\\Cegid-Primavera\\src\\Services\\Customer\\Customer.Application\\Customers.Application.csproj": {
+              "projectPath": "C:\\Users\\ricar\\Documents\\Projects\\Cegid-Primavera\\src\\Services\\Customer\\Customer.Application\\Customers.Application.csproj"
             },
-            "C:\\Users\\ricar\\OneDrive\\Documentos\\Projetos\\Cegid-Primavera\\src\\Services\\Customer\\Customer.Infrastructure\\Customers.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\ricar\\OneDrive\\Documentos\\Projetos\\Cegid-Primavera\\src\\Services\\Customer\\Customer.Infrastructure\\Customers.Infrastructure.csproj"
+            "C:\\Users\\ricar\\Documents\\Projects\\Cegid-Primavera\\src\\Services\\Customer\\Customer.Infrastructure\\Customers.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\ricar\\Documents\\Projects\\Cegid-Primavera\\src\\Services\\Customer\\Customer.Infrastructure\\Customers.Infrastructure.csproj"
             }
           }
         }

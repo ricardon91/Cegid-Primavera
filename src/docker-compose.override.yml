@@ -33,7 +33,7 @@ services:
     container_name: sales.api
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - "ConnectionStrings:CustomerConnectionString=Server=customerdb;Database=CustomerDb;User Id=sa;Password=RnS12345678;TrustServerCertificate=True"
+      - "ConnectionStrings:SalesConnectionString=Server=salesdb;Database=SalesDb;User Id=sa;Password=RnS12345678;TrustServerCertificate=True"
     depends_on:
       - salesdb
     ports:

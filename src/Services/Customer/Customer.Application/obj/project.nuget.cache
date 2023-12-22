@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SGrxtEFSImo78ZnIYlvC0HFYh5fHTemedAxEwS1nk0s7TaWX/DlmdwtYTi4vJtNn5YrpiMQaHMLXV/EnRDyPOw==",
+  "dgSpecHash": "5xsWqOPUcRG0MMDfRcPLOXSY5OehZkpyTrzY2kW7ZnDpvoUHZLNi4zK5Nc0e9UKQa7wcRFxx6evMdL0jkfabtw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\OneDrive\\Documentos\\Projetos\\Cegid-Primavera\\src\\Services\\Customer\\Customer.Application\\Customers.Application.csproj",
+  "projectFilePath": "C:\\Users\\ricar\\Documents\\Projects\\Cegid-Primavera\\src\\Services\\Customer\\Customer.Application\\Customers.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
