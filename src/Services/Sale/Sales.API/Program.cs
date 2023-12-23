@@ -17,6 +17,11 @@ builder.Services.AddSwaggerGen(c =>
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "Sales.API", Version = "v1" });
 });
 builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.AddCors(options => options.AddPolicy(name: "SalesOrigins",
+    policy =>
+    {
+        policy.WithOrigins("http://localhost:4200").AllowAnyMethod().AllowAnyHeader();
+    }));
 
 var app = builder.Build();
 
@@ -34,6 +39,8 @@ app.MigrateDatabase<SalesContext>((context, services) =>
     var logger = services.GetService<ILogger<SalesContextSeed>>();
     SalesContextSeed.SeedAsync(context, logger).Wait();
 });
+
+app.UseCors("SalesOrigins");
 
 app.UseRouting();
 

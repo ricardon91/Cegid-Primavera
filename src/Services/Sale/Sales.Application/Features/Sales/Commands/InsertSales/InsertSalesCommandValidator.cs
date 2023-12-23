@@ -22,7 +22,7 @@ namespace Sales.Application.Features.Sales.Commands.InsertSales
             RuleFor(p => p.Price)
                 .NotEmpty()
                 .WithMessage("Price is required.")
-                .GreaterThan(0).WithMessage("Total Price should be greater than zero.");
+                .GreaterThan(0).WithMessage("Price should be greater than zero.");
         }
     }
 }

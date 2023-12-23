@@ -17,6 +17,11 @@ builder.Services.AddSwaggerGen(c =>
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "Customers.API", Version = "v1" });
 });
 builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.AddCors(options => options.AddPolicy(name: "CustomerOrigins",
+    policy =>
+    {
+        policy.WithOrigins("http://localhost:4200").AllowAnyMethod().AllowAnyHeader();
+    }));
 
 var app = builder.Build();
 
@@ -34,6 +39,8 @@ app.MigrateDatabase<CustomerContext>((context, services) =>
     var logger = services.GetService<ILogger<CustomerContextSeed>>();
     CustomerContextSeed.SeedAsync(context, logger).Wait();
 });
+
+app.UseCors("CustomerOrigins");
 
 app.UseRouting();
 

@@ -12,10 +12,17 @@ services:
     build:
       context: .
       dockerfile: Services/Customer/Customer.API/Dockerfile
+    command:
+     - run
+     - --cors
+     - "*"
 
   sales.api:
     image: ${DOCKER_REGISTRY-}salesapi
     build:
       context: .
       dockerfile: Services/Sale/Sales.API/Dockerfile
-
+    command:
+     - run
+     - --cors
+     - "*"
